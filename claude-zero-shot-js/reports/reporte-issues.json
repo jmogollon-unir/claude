@@ -1,0 +1,77 @@
+{
+    "total": 1,
+    "p": 1,
+    "ps": 500,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 1
+    },
+    "effortTotal": 5,
+    "issues": [
+        {
+            "key": "d2e7af5b-d250-45f2-80fd-b1d1015342cd",
+            "rule": "javascript:S5689",
+            "severity": "MINOR",
+            "component": "claude-zero-shot-js:server.js",
+            "project": "claude-zero-shot-js",
+            "line": 13,
+            "hash": "4af77bcf43147b78489dd9c4043bfe01",
+            "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 6,
+                "endOffset": 9
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "This framework implicitly discloses version information by default. Make sure it is safe here.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "juliethcamila.m3545@comunidadunir.net",
+            "tags": [
+                "cwe",
+                "express.js",
+                "former-hotspot"
+            ],
+            "creationDate": "2026-11-10T21:07:26+0000",
+            "updateDate": "2026-11-11T00:27:07+0000",
+            "type": "VULNERABILITY",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "cleanCodeAttributeCategory": "RESPONSIBLE",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "LOW"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false,
+            "fromSonarQubeUpdate": false,
+            "internalTags": [],
+            "linkedTicketStatus": "NOT_LINKED"
+        }
+    ],
+    "components": [
+        {
+            "key": "claude-zero-shot-js",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "claude-zero-shot-js",
+            "longName": "claude-zero-shot-js"
+        },
+        {
+            "key": "claude-zero-shot-js:server.js",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "server.js",
+            "longName": "server.js",
+            "path": "server.js"
+        }
+    ],
+    "facets": []
+}

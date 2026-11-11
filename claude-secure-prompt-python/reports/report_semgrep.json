@@ -1,0 +1,85 @@
+{
+    "version": "1.184.0",
+    "results": [],
+    "errors": [],
+    "paths": {
+        "scanned": [
+            ".env",
+            "main.py",
+            "requirements.txt"
+        ]
+    },
+    "time": {
+        "rules": [],
+        "rules_parse_time": 0.3038308620452881,
+        "profiling_times": {
+            "config_time": 1.3867499828338623,
+            "core_time": 0.7332701683044434,
+            "ignores_time": 0.0010180473327636719,
+            "total_time": 2.1316049098968506
+        },
+        "parsing_time": {
+            "total_time": 0.008150815963745117,
+            "per_file_time": {
+                "mean": 0.0006792346636454263,
+                "std_dev": 5.0749570112726715e-06
+            },
+            "very_slow_stats": {
+                "time_ratio": 0.0,
+                "count_ratio": 0.0
+            },
+            "very_slow_files": []
+        },
+        "scanning_time": {
+            "total_time": 0.02758622169494629,
+            "per_file_time": {
+                "mean": 0.0039408888135637555,
+                "std_dev": 6.145166853642951e-05
+            },
+            "very_slow_stats": {
+                "time_ratio": 0.0,
+                "count_ratio": 0.0
+            },
+            "very_slow_files": []
+        },
+        "matching_time": {
+            "total_time": 0.008191108703613281,
+            "per_file_and_rule_time": {
+                "mean": 0.0006825923919677734,
+                "std_dev": 7.277764382251917e-07
+            },
+            "very_slow_stats": {
+                "time_ratio": 0.0,
+                "count_ratio": 0.0
+            },
+            "very_slow_rules_on_files": []
+        },
+        "tainting_time": {
+            "total_time": 0.002737283706665039,
+            "per_def_and_rule_time": {
+                "mean": 9.124279022216797e-05,
+                "std_dev": 7.126046928836635e-09
+            },
+            "very_slow_stats": {
+                "time_ratio": 0.0,
+                "count_ratio": 0.0
+            },
+            "very_slow_rules_on_defs": []
+        },
+        "fixpoint_timeouts": [],
+        "prefiltering": {
+            "project_level_time": 0.0,
+            "file_level_time": 0.0,
+            "rules_with_project_prefilters_ratio": 0.0,
+            "rules_with_file_prefilters_ratio": 0.9921875,
+            "rules_selected_ratio": 0.03125,
+            "rules_matched_ratio": 0.03125
+        },
+        "targets": [],
+        "total_bytes": 0,
+        "max_memory_bytes": 787721920
+    },
+    "engine_requested": "OSS",
+    "skipped_rules": [],
+    "profiling_results": []
+}
